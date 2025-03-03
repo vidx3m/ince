@@ -36,7 +36,7 @@ export default function Home() {
                 borderRadius: "30px", 
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
                 gap: "10px",
-                maxWidth: "600px",
+                maxWidth: "450px",
                 width: "100%"
             }}>
                 <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
@@ -86,4 +86,5 @@ export default function Home() {
     </div>
     );
 }
+
 
