@@ -32,7 +32,7 @@ export default function Home() {
                 display: "flex", 
                 alignItems: "center", 
                 justifyContent: "center", 
-                padding: "10px", backgroundColor: "#192938" 
+                padding: "10px", backgroundColor: "#192938",
                 borderRadius: "30px", 
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
                 gap: "10px",
