@@ -50,7 +50,7 @@ export default function Home() {
                 <input 
                     type="text" 
                     placeholder="Postal Code" 
-                    maxLength="7" 
+                    maxLength={7} 
                     style={{ 
                         padding: "10px", 
                         borderRadius: "20px", 
