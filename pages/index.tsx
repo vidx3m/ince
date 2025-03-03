@@ -68,7 +68,7 @@ export default function Home() {
                         fontSize: "0.9rem", 
                         borderRadius: "0px", 
                         cursor: "pointer", 
-                        backgroundColor: "#d9d9d9", 
+                        backgroundColor: "#9d8e6d", 
                         color: "white", 
                         border: "none", 
                         fontWeight: "bold", 
