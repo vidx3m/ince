@@ -8,9 +8,9 @@ export default function Home() {
             justifyContent: "center", 
             alignItems: "center", 
             minHeight: "100vh", 
-            backgroundColor: "#c8cacc", 
+            backgroundColor: "#f8f8f8", 
             fontFamily: "Inter, sans-serif", 
-            color: "#1a1a1a", 
+            color: "#333", 
             padding: "40px", 
             textAlign: "center",
             width: "100vw"
@@ -18,7 +18,7 @@ export default function Home() {
             <h1 style={{ fontSize: "2rem", fontWeight: "600", marginBottom: "10px", color: "#ff6b00" }}>
                 Insurance, simplified
             </h1>
-            <p style={{ fontSize: "1rem", maxWidth: "800px", marginBottom: "30px", color: "#4a4a4a", lineHeight: "1.6" }}>
+            <p style={{ fontSize: "1rem", maxWidth: "800px", marginBottom: "30px", color: "#555", lineHeight: "1.6" }}>
                 Smarter Home and Auto insurance research and comparison, find the best coverage, effortlessly.
             </p>
             
@@ -34,10 +34,10 @@ export default function Home() {
                 maxWidth: "800px",
                 width: "100%"
             }}>
-                <label style={{ fontSize: "0.9rem", cursor: "pointer", display: "flex", alignItems: "center" }}>
+                <label style={{ fontSize: "0.9rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#333" }}>
                     <input type="checkbox" id="home" name="insuranceType" value="home" style={{ marginRight: "5px" }} /> Home
                 </label>
-                <label style={{ fontSize: "0.9rem", cursor: "pointer", display: "flex", alignItems: "center" }}>
+                <label style={{ fontSize: "0.9rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#333" }}>
                     <input type="checkbox" id="auto" name="insuranceType" value="auto" style={{ marginRight: "5px" }} /> Auto
                 </label>
                 
@@ -47,9 +47,9 @@ export default function Home() {
                     style={{ 
                         padding: "10px", 
                         borderRadius: "20px", 
-                        border: "1px solid #ccc", 
-                        backgroundColor: "#f9f9f9", 
-                        color: "#1a1a1a", 
+                        border: "1px solid #aaa", 
+                        backgroundColor: "#f0f0f0", 
+                        color: "#333", 
                         outline: "none", 
                         fontSize: "0.9rem",
                         flexGrow: 1,
