@@ -43,7 +43,7 @@ export default function Home() {
                 <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#333", fontWeight: "bold" }}>
                     <input type="checkbox" id="home" name="insuranceType" value="home" style={{ marginRight: "5px" }} /> Home
                 </label>
-                <label style={{ fontSize: "0.9rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
+                <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#333", fontWeight: "bold" }}>
                     <input type="checkbox" id="auto" name="insuranceType" value="auto" style={{ marginRight: "5px" }} /> Auto
                 </label>
                 
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
             
             <div style={{ 
-                marginTop: "150px", 
+                marginTop: "200px", 
                  
                 color: "#ffffff", 
                 padding: "40px", 
