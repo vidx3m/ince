@@ -54,7 +54,7 @@ export default function Home() {
                         padding: "10px", 
                         borderRadius: "20px", 
                         border: "1px solid #aaa", 
-                        backgroundColor: "#f0f0f0", 
+                         
                         color: "#333", 
                         outline: "none", 
                         fontSize: "0.8rem",
@@ -104,7 +104,7 @@ export default function Home() {
                 </div>
                 <div style={{ 
                     flex: "1", 
-                    backgroundColor: "#ffffff", 
+                     
                     padding: "20px", 
                     borderRadius: "10px", 
                     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
