@@ -53,7 +53,7 @@ export default function Home() {
                     maxLength={7} 
                     style={{ 
                         padding: "10px", 
-                        borderRadius: "0px", 
+                        borderRadius: "0px", boxShadow: "0 4px 6px rgba(0, 0, 0, 0.2)", 
                         border: "1px solid #aaa", 
                         backgroundColor: "#f0f0f0", 
                         color: "#333", 
