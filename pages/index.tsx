@@ -8,7 +8,7 @@ export default function Home() {
             justifyContent: "center", 
             alignItems: "center", 
             minHeight: "100vh", 
-            backgroundColor: "#d9d9d9", 
+            backgroundColor: "#9d8e6d", 
             fontFamily: "Inter, sans-serif", 
             color: "#ffffff", fontSize: "0.8rem", 
             padding: "40px", 
@@ -24,7 +24,7 @@ export default function Home() {
             }}>
                 Insurance, simplified
             </h1>
-            <p style={{ fontSize: "1rem", maxWidth: "800px", marginBottom: "30px", color: "#555", lineHeight: "1.6" }}>
+            <p style={{ fontSize: "1rem", maxWidth: "600px", marginBottom: "30px", color: "#555", lineHeight: "1.6" }}>
                 Smarter Home and Auto insurance research and comparison, find your best coverage, effortlessly.
             </p>
             
@@ -86,3 +86,4 @@ export default function Home() {
     </div>
     );
 }
+
