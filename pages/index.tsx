@@ -97,9 +97,9 @@ export default function Home() {
                     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
                     textAlign: "center"
                 }}>
-                    <h2 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "10px" }}>Step 1</h2>
+                    
                     <p style={{ fontSize: "0.8rem", color: "#555" }}>
-                        Enter Your Details: Select the type of insurance you need, provide your postal code and relevant details.
+                        <strong>Enter Your Details:</strong> Select the type of insurance you need, provide your postal code and relevant details.
                     </p>
                 </div>
                 <div style={{ 
@@ -110,9 +110,9 @@ export default function Home() {
                     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
                     textAlign: "center"
                 }}>
-                    <h2 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "10px" }}>Step 2</h2>
+                    
                     <p style={{ fontSize: "0.8rem", color: "#555" }}>
-                        AI Comparison: Our AI scans multiple insurers and analyzes different coverage scenarios to get you optimized coverage for the best price.
+                        <strong>AI Comparison:</strong> Our AI scans multiple insurers and analyzes different coverage scenarios to get you optimized coverage for the best price.
                     </p>
                 </div>
                 <div style={{ 
@@ -123,9 +123,9 @@ export default function Home() {
                     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
                     textAlign: "center"
                 }}>
-                    <h2 style={{ fontSize: "1rem", fontWeight: "600", marginBottom: "10px" }}>Step 3</h2>
+                    
                     <p style={{ fontSize: "0.8rem", color: "#555" }}>
-                        Get Your Quote: Receive an optimized insurance quote tailored to your needs.
+                        <strong>Get Your Quote:</strong> Receive an optimized insurance quote tailored to your needs.
                     </p>
                 </div>
             </div>
