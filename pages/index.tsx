@@ -10,7 +10,7 @@ export default function Home() {
             minHeight: "100vh", 
             backgroundColor: "#f8f8f8", 
             fontFamily: "Inter, sans-serif", 
-            color: "#ffffff", 
+            color: "#333", fontSize: "0.8rem" 
             padding: "40px", 
             textAlign: "center",
             width: "100vw"
@@ -32,7 +32,7 @@ export default function Home() {
                 display: "flex", 
                 alignItems: "center", 
                 justifyContent: "center", 
-                backgroundColor: "#192938", 
+                 
                 padding: "10px", 
                 borderRadius: "30px", 
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
             
             <div style={{ 
-                marginTop: "60px", 
+                marginTop: "100px", 
                 backgroundColor: "#192938", 
                 color: "#ffffff", 
                 padding: "40px", 
