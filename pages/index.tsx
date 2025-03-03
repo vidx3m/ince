@@ -10,7 +10,7 @@ export default function Home() {
             minHeight: "100vh", 
             backgroundColor: "#f8f8f8", 
             fontFamily: "Inter, sans-serif", 
-            color: "#333", 
+            color: "#ffffff", 
             padding: "40px", 
             textAlign: "center",
             width: "100vw"
