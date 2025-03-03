@@ -49,7 +49,8 @@ export default function Home() {
                 
                 <input 
                     type="text" 
-                    placeholder="Enter Postal Code" 
+                    placeholder="Postal Code" 
+                    maxLength="7" 
                     style={{ 
                         padding: "10px", 
                         borderRadius: "20px", 
@@ -58,7 +59,7 @@ export default function Home() {
                         color: "#333", 
                         outline: "none", 
                         fontSize: "0.9rem",
-                        flexGrow: 1,
+                        width: "90px",
                         textAlign: "center"
                     }}
                 />
