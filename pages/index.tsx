@@ -54,7 +54,6 @@ export default function Home() {
                         padding: "10px", 
                         borderRadius: "20px", 
                         border: "1px solid #aaa", 
-                         
                         color: "#333", 
                         outline: "none", 
                         fontSize: "0.8rem",
@@ -79,55 +78,6 @@ export default function Home() {
                         Start
                     </button>
                 </Link>
-            </div>
-            
-            <div style={{ 
-                marginTop: "250px", 
-                display: "flex", 
-                justifyContent: "center", 
-                gap: "20px", 
-                maxWidth: "1000px", 
-                width: "100%"
-            }}>
-                <div style={{ 
-                    flex: "1", 
-                     
-                    padding: "20px", 
-                    borderRadius: "10px", 
-                    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-                    textAlign: "center"
-                }}>
-                    
-                    <p style={{ fontSize: "0.8rem", color: "#555" }}>
-                        <strong>Enter Your Details:</strong> Select the type of insurance you need, provide your postal code and relevant details.
-                    </p>
-                </div>
-                <div style={{ 
-                    flex: "1", 
-                     
-                    padding: "20px", 
-                    borderRadius: "10px", 
-                    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-                    textAlign: "center"
-                }}>
-                    
-                    <p style={{ fontSize: "0.8rem", color: "#555" }}>
-                        <strong>AI Comparison:</strong> Our AI scans multiple insurers and analyzes different coverage scenarios to get you optimized coverage for the best price.
-                    </p>
-                </div>
-                <div style={{ 
-                    flex: "1", 
-                     
-                    padding: "20px", 
-                    borderRadius: "10px", 
-                    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-                    textAlign: "center"
-                }}>
-                    
-                    <p style={{ fontSize: "0.8rem", color: "#555" }}>
-                        <strong>Get Your Quote:</strong> Receive an optimized insurance quote tailored to your needs.
-                    </p>
-                </div>
             </div>
         </div>
     );
