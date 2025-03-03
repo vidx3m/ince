@@ -15,7 +15,13 @@ export default function Home() {
             textAlign: "center",
             width: "100vw"
         }}>
-            <h1 style={{ fontSize: "2rem", fontWeight: "600", marginBottom: "10px", color: "#ff6b00" }}>
+            <h1 style={{ 
+                fontSize: "2rem", 
+                fontWeight: "600", 
+                marginBottom: "10px", 
+                color: "#192938", 
+                fontFamily: "Norwester, sans-serif"
+            }}>
                 Insurance, simplified
             </h1>
             <p style={{ fontSize: "1rem", maxWidth: "800px", marginBottom: "30px", color: "#555", lineHeight: "1.6" }}>
