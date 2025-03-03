@@ -78,6 +78,9 @@ export default function Home() {
                         Start
                     </button>
                 </Link>
+            <p style={{ fontSize: "0.7rem", color: "#ffffff", marginTop: "10px" }}>
+                    Our AI scans multiple insurers and analyzes different coverage scenarios to get you optimized coverage for the best price.
+                </p>
             </div>
         </div>
     );
