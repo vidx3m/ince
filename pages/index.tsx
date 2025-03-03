@@ -24,7 +24,7 @@ export default function Home() {
             }}>
                 Insurance, simplified
             </h1>
-            <p style={{ fontSize: "1rem", maxWidth: "600px", marginBottom: "30px", color: "#555", lineHeight: "1.6" }}>
+            <p style={{ fontSize: "1rem", maxWidth: "800px", marginBottom: "30px", color: "#555", lineHeight: "1.6" }}>
                 Smarter Home and Auto insurance research and comparison, find the best coverage, effortlessly.
             </p>
             
@@ -32,7 +32,7 @@ export default function Home() {
                 display: "flex", 
                 alignItems: "center", 
                 justifyContent: "center", 
-                backgroundColor: "#ffffff", 
+                backgroundColor: "#192938", 
                 padding: "10px", 
                 borderRadius: "30px", 
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
