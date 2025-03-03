@@ -25,7 +25,7 @@ export default function Home() {
                 Insurance, simplified
             </h1>
             <p style={{ fontSize: "1rem", maxWidth: "800px", marginBottom: "30px", color: "#555", lineHeight: "1.6" }}>
-                Smarter Home and Auto insurance research and comparison, find the best coverage, effortlessly.
+                Smarter Home and Auto insurance research and comparison, find your best coverage, effortlessly.
             </p>
             
             <div style={{ 
