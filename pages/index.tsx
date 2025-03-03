@@ -24,7 +24,7 @@ export default function Home() {
             }}>
                 Insurance, simplified
             </h1>
-            <p style={{ fontSize: "1rem", maxWidth: "800px", marginBottom: "30px", color: "#555", lineHeight: "1.6" }}>
+            <p style={{ fontSize: "1rem", maxWidth: "600px", marginBottom: "30px", color: "#555", lineHeight: "1.6" }}>
                 Smarter Home and Auto insurance research and comparison, find the best coverage, effortlessly.
             </p>
             
@@ -49,7 +49,7 @@ export default function Home() {
                 
                 <input 
                     type="text" 
-                    placeholder="Postal Code" 
+                    placeholder="Postal Code" style={{ fontSize: "0.8rem" }} 
                     maxLength={7} 
                     style={{ 
                         padding: "10px", 
@@ -59,7 +59,7 @@ export default function Home() {
                         color: "#333", 
                         outline: "none", 
                         fontSize: "0.9rem",
-                        width: "90px",
+                        width: "120px",
                         textAlign: "center"
                     }}
                 />
@@ -70,7 +70,7 @@ export default function Home() {
                         fontSize: "0.9rem", 
                         borderRadius: "20px", 
                         cursor: "pointer", 
-                        backgroundColor: "#ff6b00", 
+                        backgroundColor: "#7afff5", 
                         color: "white", 
                         border: "none", 
                         fontWeight: "bold", 
