@@ -43,10 +43,10 @@ export default function Home() {
                 <label style={{ fontSize: "0.7rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
                     <input type="checkbox" name="insuranceType" value="home" style={{ marginRight: "5px" }} /> Home
                 </label>
-                <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
+                <label style={{ fontSize: "0.7rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
                     <input type="checkbox" name="insuranceType" value="auto" style={{ marginRight: "5px" }} /> Auto
                 </label>
-                <label style={{ fontSize: "0.8rem", color: "#ffffff", fontWeight: "bold" }}>Postal Code</label>
+                <label style={{ fontSize: "0.7rem", color: "#ffffff", fontWeight: "bold" }}>Postal Code</label>
                 <input 
                     type="text" 
                     placeholder="A1A 1A1" 
@@ -57,7 +57,7 @@ export default function Home() {
                         border: "1px solid #aaa", 
                         color: "#333", 
                         outline: "none", 
-                        fontSize: "0.8rem",
+                        fontSize: "0.7rem",
                         width: "70px",
                         textAlign: "center"
                     }}
@@ -85,6 +85,7 @@ export default function Home() {
     </div>
     );
 }
+
 
 
 
