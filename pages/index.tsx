@@ -40,11 +40,26 @@ export default function Home() {
                 width: "100%"
             }}>
                 <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
-                    <input type="checkbox" id="home" name="insuranceType" value="home" style={{ marginRight: "5px" }} /> Home
-                </label>
-                <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
-                    <input type="checkbox" id="auto" name="insuranceType" value="auto" style={{ marginRight: "5px" }} /> Auto
-                </label>
+                    
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%" }}>
+                    <label style={{ fontSize: "0.8rem", color: "#ffffff", fontWeight: "bold", marginBottom: "5px" }}>Postal Code</label>
+                    <input 
+                        type="text" 
+                        placeholder="Postal Code" 
+                        maxLength={7} 
+                        style={{ 
+                            padding: "10px", 
+                            borderRadius: "20px", 
+                            border: "1px solid #aaa", 
+                            color: "#333", 
+                            outline: "none", 
+                            fontSize: "0.8rem",
+                            width: "100px",
+                            textAlign: "center"
+                        }}
+                    />
+                </div>
+                
                 
                 <input 
                     type="text" 
@@ -86,5 +101,4 @@ export default function Home() {
     </div>
     );
 }
-
 
