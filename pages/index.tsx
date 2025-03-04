@@ -58,7 +58,7 @@ export default function Home() {
                         color: "#333", 
                         outline: "none", 
                         fontSize: "0.8rem",
-                        width: "100px",
+                        width: "80px",
                         textAlign: "center"
                     }}
                 />
@@ -85,6 +85,7 @@ export default function Home() {
     </div>
     );
 }
+
 
 
 
