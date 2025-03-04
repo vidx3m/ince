@@ -32,7 +32,7 @@ export default function Home() {
                 display: "flex", 
                 alignItems: "center", 
                 justifyContent: "center", 
-                padding: "10px", 
+                padding: "5px", 
                 backgroundColor: "#192938", 
                 borderRadius: "30px", 
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
@@ -49,7 +49,7 @@ export default function Home() {
                 <label style={{ fontSize: "0.8rem", color: "#ffffff", fontWeight: "bold" }}>Postal Code</label>
                 <input 
                     type="text" 
-                    placeholder="Postal Code" 
+                    placeholder="A1A 1A1" 
                     maxLength={7} 
                     style={{ 
                         padding: "10px", 
@@ -58,7 +58,7 @@ export default function Home() {
                         color: "#333", 
                         outline: "none", 
                         fontSize: "0.8rem",
-                        width: "100px",
+                        width: "80px",
                         textAlign: "center"
                     }}
                 />
@@ -85,6 +85,7 @@ export default function Home() {
     </div>
     );
 }
+
 
 
 
