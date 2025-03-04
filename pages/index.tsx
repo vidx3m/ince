@@ -10,7 +10,7 @@ export default function Home() {
             minHeight: "100vh", 
             backgroundColor: "#9d8e6d", 
             fontFamily: "Inter, sans-serif", 
-            color: "#ffffff", fontSize: "0.8rem", 
+            color: "#ffffff", fontSize: "0.7rem", 
             padding: "40px", 
             textAlign: "center",
             width: "100vw"
@@ -49,7 +49,7 @@ export default function Home() {
                 <label style={{ fontSize: "0.8rem", color: "#ffffff", fontWeight: "bold" }}>Postal Code</label>
                 <input 
                     type="text" 
-                    placeholder="A1A 1A1" style={{ fontSize: '0.7rem' }} 
+                    placeholder="A1A 1A1" 
                     maxLength={7} 
                     style={{ 
                         padding: "5px", 
@@ -58,7 +58,7 @@ export default function Home() {
                         color: "#333", 
                         outline: "none", 
                         fontSize: "0.8rem",
-                        width: "70px",
+                        width: "80px",
                         textAlign: "center"
                     }}
                 />
@@ -85,6 +85,7 @@ export default function Home() {
     </div>
     );
 }
+
 
 
 
