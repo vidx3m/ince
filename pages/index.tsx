@@ -40,7 +40,7 @@ export default function Home() {
                 width: "100%",
                 gap: "10px"
             }}>
-                <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
+                <label style={{ fontSize: "0.7rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
                     <input type="checkbox" name="insuranceType" value="home" style={{ marginRight: "5px" }} /> Home
                 </label>
                 <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
@@ -65,7 +65,7 @@ export default function Home() {
                 <Link href="/get-a-quote">
                     <button className="button" style={{ 
                         padding: "10px 20px", 
-                        fontSize: "0.9rem", 
+                        fontSize: "0.8rem", 
                         borderRadius: "8px", 
                         cursor: "pointer", 
                         backgroundColor: "#9d8e6d", 
@@ -85,6 +85,7 @@ export default function Home() {
     </div>
     );
 }
+
 
 
 
