@@ -29,18 +29,20 @@ export default function Home() {
             </p>
             
             <div style={{ 
-                display: "flex", 
-                flexDirection: "column", 
+                display: "grid", 
+                gridTemplateColumns: "1fr 1fr", 
+                gridTemplateRows: "1fr 1fr", 
+                gap: "10px", 
                 alignItems: "center", 
                 justifyContent: "center", 
-                padding: "10px", backgroundColor: "#192938",
+                padding: "20px", 
+                backgroundColor: "#192938", 
                 borderRadius: "30px", 
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-                gap: "10px",
                 maxWidth: "400px",
                 width: "100%"
             }}>
-                <div style={{ display: "flex", gap: "10px" }}>
+                <div style={{ display: "flex", gap: "10px", justifyContent: "center" }}>
                     <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
                         <input type="checkbox" name="insuranceType" value="home" style={{ marginRight: "5px" }} /> Home
                     </label>
@@ -48,7 +50,24 @@ export default function Home() {
                         <input type="checkbox" name="insuranceType" value="auto" style={{ marginRight: "5px" }} /> Auto
                     </label>
                 </div>
-                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%" }}>
+                <Link href="/get-a-quote">
+                    <button className="button" style={{ 
+                        padding: "10px 20px", 
+                        fontSize: "0.9rem", 
+                        borderRadius: "0px", 
+                        cursor: "pointer", 
+                        backgroundColor: "#9d8e6d", 
+                        color: "white", 
+                        border: "none", 
+                        fontWeight: "bold", 
+                        transition: "all 0.3s ease-in-out",
+                        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.2)",
+                        justifySelf: "center"
+                    }}>
+                        Start
+                    </button>
+                </Link>
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                     <label style={{ fontSize: "0.8rem", color: "#ffffff", fontWeight: "bold", marginBottom: "5px" }}>Postal Code</label>
                     <input 
                         type="text" 
@@ -66,22 +85,6 @@ export default function Home() {
                         }}
                     />
                 </div>
-                <Link href="/get-a-quote">
-                    <button className="button" style={{ 
-                        padding: "10px 20px", 
-                        fontSize: "0.9rem", 
-                        borderRadius: "0px", 
-                        cursor: "pointer", 
-                        backgroundColor: "#9d8e6d", 
-                        color: "white", 
-                        border: "none", 
-                        fontWeight: "bold", 
-                        transition: "all 0.3s ease-in-out",
-                        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.2)"
-                    }}>
-                        Start
-                    </button>
-                </Link>
             </div>
         <p style={{ fontSize: "0.7rem", color: "#555", textAlign: "center", marginTop: "40px" }}>
             Our AI scans multiple insurers and analyzes different coverage scenarios to get you optimized coverage for the best price.
