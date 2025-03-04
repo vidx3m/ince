@@ -66,7 +66,7 @@ export default function Home() {
                     <button className="button" style={{ 
                         padding: "10px 20px", 
                         fontSize: "0.9rem", 
-                        borderRadius: "0px", 
+                        borderRadius: "8px", 
                         cursor: "pointer", 
                         backgroundColor: "#9d8e6d", 
                         color: "white", 
@@ -85,6 +85,7 @@ export default function Home() {
     </div>
     );
 }
+
 
 
 
