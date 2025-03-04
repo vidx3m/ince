@@ -30,49 +30,43 @@ export default function Home() {
             
             <div style={{ 
                 display: "flex", 
-                flexWrap: "wrap", 
                 alignItems: "center", 
                 justifyContent: "center", 
                 padding: "10px", 
                 backgroundColor: "#192938", 
                 borderRadius: "30px", 
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-                maxWidth: "90%",
+                maxWidth: "600px",
                 width: "100%",
                 gap: "10px"
             }}>
-                <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "10px" }}>
-                    <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
-                        <input type="checkbox" name="insuranceType" value="home" style={{ marginRight: "5px" }} /> Home
-                    </label>
-                    <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
-                        <input type="checkbox" name="insuranceType" value="auto" style={{ marginRight: "5px" }} /> Auto
-                    </label>
-                </div>
-                <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                    <label style={{ fontSize: "0.8rem", color: "#ffffff", fontWeight: "bold", marginBottom: "5px" }}>Postal Code</label>
-                    <input 
-                        type="text" 
-                        placeholder="A1A 1A1" 
-                        maxLength={7} 
-                        style={{ 
-                            padding: "10px", 
-                            borderRadius: "20px", 
-                            border: "1px solid #aaa", 
-                            color: "#333", 
-                            backgroundColor: "#ccc", 
-                            outline: "none", 
-                            fontSize: "0.8rem",
-                            width: "80px",
-                            textAlign: "center"
-                        }}
-                    />
-                </div>
+                <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
+                    <input type="checkbox" name="insuranceType" value="home" style={{ marginRight: "5px" }} /> Home
+                </label>
+                <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
+                    <input type="checkbox" name="insuranceType" value="auto" style={{ marginRight: "5px" }} /> Auto
+                </label>
+                <label style={{ fontSize: "0.8rem", color: "#ffffff", fontWeight: "bold" }}>Postal Code</label>
+                <input 
+                    type="text" 
+                    placeholder="Postal Code" 
+                    maxLength={7} 
+                    style={{ 
+                        padding: "10px", 
+                        borderRadius: "20px", 
+                        border: "1px solid #aaa", 
+                        color: "#333", 
+                        outline: "none", 
+                        fontSize: "0.8rem",
+                        width: "100px",
+                        textAlign: "center"
+                    }}
+                />
                 <Link href="/get-a-quote">
                     <button className="button" style={{ 
-                        padding: "10px 40px", 
+                        padding: "10px 20px", 
                         fontSize: "0.9rem", 
-                        borderRadius: "10px", 
+                        borderRadius: "0px", 
                         cursor: "pointer", 
                         backgroundColor: "#9d8e6d", 
                         color: "white", 
@@ -91,6 +85,7 @@ export default function Home() {
     </div>
     );
 }
+
 
 
 
