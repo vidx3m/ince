@@ -30,6 +30,7 @@ export default function Home() {
             
             <div style={{ 
                 display: "flex", 
+                flexDirection: "column", 
                 alignItems: "center", 
                 justifyContent: "center", 
                 padding: "10px", backgroundColor: "#192938",
@@ -39,8 +40,14 @@ export default function Home() {
                 maxWidth: "400px",
                 width: "100%"
             }}>
-                <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
-                    
+                <div style={{ display: "flex", gap: "10px" }}>
+                    <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
+                        <input type="checkbox" name="insuranceType" value="home" style={{ marginRight: "5px" }} /> Home
+                    </label>
+                    <label style={{ fontSize: "0.8rem", cursor: "pointer", display: "flex", alignItems: "center", color: "#ffffff", fontWeight: "bold" }}>
+                        <input type="checkbox" name="insuranceType" value="auto" style={{ marginRight: "5px" }} /> Auto
+                    </label>
+                </div>
                 <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%" }}>
                     <label style={{ fontSize: "0.8rem", color: "#ffffff", fontWeight: "bold", marginBottom: "5px" }}>Postal Code</label>
                     <input 
@@ -59,24 +66,6 @@ export default function Home() {
                         }}
                     />
                 </div>
-                
-                
-                <input 
-                    type="text" 
-                    placeholder="Postal Code" 
-                    maxLength={7} 
-                    style={{ 
-                        padding: "10px", 
-                        borderRadius: "20px", 
-                        border: "1px solid #aaa", 
-                        color: "#333", 
-                        outline: "none", 
-                        fontSize: "0.8rem",
-                        width: "100px",
-                        textAlign: "center"
-                    }}
-                />
-                
                 <Link href="/get-a-quote">
                     <button className="button" style={{ 
                         padding: "10px 20px", 
@@ -93,7 +82,6 @@ export default function Home() {
                         Start
                     </button>
                 </Link>
-            
             </div>
         <p style={{ fontSize: "0.7rem", color: "#555", textAlign: "center", marginTop: "40px" }}>
             Our AI scans multiple insurers and analyzes different coverage scenarios to get you optimized coverage for the best price.
@@ -101,4 +89,5 @@ export default function Home() {
     </div>
     );
 }
+
 
