@@ -8,7 +8,7 @@ export default function Home() {
             justifyContent: "center", 
             alignItems: "center", 
             minHeight: "100vh", 
-            backgroundColor: "#9d8e6d", 
+            backgroundColor: "#d4cab5", 
             fontFamily: "Inter, sans-serif", 
             color: "#ffffff", fontSize: "0.7rem", 
             padding: "40px", 
