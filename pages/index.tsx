@@ -64,9 +64,9 @@ export default function Home() {
                 />
                 <Link href="/get-a-quote">
                     <button className="button" style={{ 
-                        padding: "10px 20px", 
+                        padding: "10px 40px", 
                         fontSize: "0.9rem", 
-                        borderRadius: "0px", 
+                        borderRadius: "10px", 
                         cursor: "pointer", 
                         backgroundColor: "#9d8e6d", 
                         color: "white", 
@@ -85,6 +85,7 @@ export default function Home() {
     </div>
     );
 }
+
 
 
 
