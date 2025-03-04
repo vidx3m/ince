@@ -49,7 +49,7 @@ export default function Home() {
                 <label style={{ fontSize: "0.8rem", color: "#ffffff", fontWeight: "bold" }}>Postal Code</label>
                 <input 
                     type="text" 
-                    placeholder="Postal Code" 
+                    placeholder="A1A 1A1" 
                     maxLength={7} 
                     style={{ 
                         padding: "10px", 
@@ -85,6 +85,7 @@ export default function Home() {
     </div>
     );
 }
+
 
 
 
