@@ -34,7 +34,7 @@ export default function Home() {
                 justifyContent: "center", 
                 padding: "5px", 
                 backgroundColor: "#192938", 
-                borderRadius: "30px", 
+                borderRadius: "15px", 
                 boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
                 maxWidth: "600px",
                 width: "100%",
@@ -85,6 +85,7 @@ export default function Home() {
     </div>
     );
 }
+
 
 
 
