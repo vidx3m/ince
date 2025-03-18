@@ -1,3 +1,9 @@
+"use client"; // ✅ Forces client-side execution
+
+export default function HomePage() {
+  return <h1>Welcome to Ince Insurance</h1>;
+}
+
 import Link from "next/link";
 
 export default function Home() {
