@@ -1,19 +1,11 @@
-// pages/_app.js
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { SessionProvider } from "next-auth/react";
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
-
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
-
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <SessionProvider session={pageProps.session}>
+      <Component {...pageProps} />
+    </SessionProvider>
+  );
 }
