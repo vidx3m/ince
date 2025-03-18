@@ -1,8 +1,10 @@
-import { useState } from 'react';
+"use client"; // Ensures this runs on the client side only
+
+import { useState } from "react";
 
 export default function QuotePage() {
-  const [insuranceType, setInsuranceType] = useState('Auto');
-  const [postalCode, setPostalCode] = useState('');
+  const [insuranceType, setInsuranceType] = useState("Auto");
+  const [postalCode, setPostalCode] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
