@@ -1,4 +1,4 @@
-"use client"; // Ensure client-side rendering
+"use client"; // ✅ Forces client-side execution
 
 import { useState } from "react";
 
@@ -38,6 +38,14 @@ export default function QuotePage() {
             required
           />
         </div>
+
+        <button type="submit" className="btn btn-primary w-100">
+          Get Quote
+        </button>
+      </form>
+    </div>
+  );
+}
 
         <button type="submit" className="btn btn-primary w-100">
           Get Quote
