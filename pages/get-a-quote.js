@@ -1,10 +1,14 @@
-"use client"; // Ensures client-side rendering
+"use client"; // ✅ Ensures client-side execution
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function QuotePage() {
   const [insuranceType, setInsuranceType] = useState("Auto");
   const [postalCode, setPostalCode] = useState("");
+
+  useEffect(() => {
+    console.log("Client-side rendering active.");
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
